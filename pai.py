@@ -9,7 +9,7 @@ import discord
 from discord.ext import commands
 
 import os
-TOKEN = os.getenv("DISCORD_TOKEN") or "MTQ2MzYxMjQ0NTk1MTI2NzA1Nw.GuxzC5.dzvi1atFQrzDD1wrDtBs8N3t0Zvu2ZFK2sb9Ew"
+TOKEN = os.getenv("DISCORD_TOKEN")
 bot.run(TOKEN)
 
 # IMAGENS (URL)
@@ -776,6 +776,7 @@ async def on_ready():
     db_init()
     await bot.tree.sync()
     print(f"BOT ONLINE: {bot.user}")
+
 
 
 bot.run(TOKEN)
