@@ -10,7 +10,7 @@ from discord.ext import commands
 
 import os
 TOKEN = os.getenv("DISCORD_TOKEN")
-bot.run(TOKEN)
+
 
 # IMAGENS (URL)
 LOGO_URL = "https://cdn.discordapp.com/attachments/1464089319387168838/1475902292988395846/IMG_1983.png?ex=699f2c9f&is=699ddb1f&hm=f9fd6252bc60b1efe0140eb02a4045163119368fae4f91a80ff011b731e65227&"
@@ -780,3 +780,4 @@ async def on_ready():
 
 
 bot.run(TOKEN)
+
